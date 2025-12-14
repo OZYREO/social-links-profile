@@ -1,0 +1,87 @@
+h1, h2, p, a {
+    font-family: "Inter", sans-serif;
+}
+h1 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+h2 {
+    font-weight: 600;
+    font-size: 1rem;
+}
+p {
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(0, 0%, 100%);
+}
+.attribution a { 
+    color: hsl(75, 94%, 57%);
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 8%);
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.profile-card {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    width: 300px;
+}
+.profile-header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+.profile-header h1 {
+    color: hsl(0, 0%, 100%);
+    margin: 0.5rem 0;
+}
+.profile-header h2 {
+    color: hsl(75, 94%, 57%);
+    margin: 0.5rem 0;
+}
+.profile-header p {
+    color: hsl(0, 0%, 100%);
+    margin: 1rem 0;
+}
+.social-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+.social-links a {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.8rem 1rem;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.social-links a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
